@@ -6,7 +6,8 @@
  <link rel="stylesheet" href="OurFirstStyle.css">
 </head>
 <body>
-
+ <br>
+<h2>Welcome ${Name} !!</h2>
         <section class = "rooms sec-width" id = "rooms">
             <div class = "title">
               <i><h1 class ="head">Rooms</h1></i>  
