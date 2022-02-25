@@ -6,9 +6,10 @@
     <script>
     function validateform(){
     	var password=document.myform.password.value;
+    	
     	if(password.length<6)
     		{
-    		alert("Password must be at least 6 characters long.\n Re-Enter the Password !");
+    		alert("Password must be at least 6 characters long.\nRe - Enter the password!!");
     		return false;
     		}
     }
@@ -35,8 +36,9 @@
                    <form method = "post" name="myform" onsubmit="return validateform()" action="Login">
                     <h2>Login Here</h2>
                     <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type = "text" name = "username" placeholder = "Enter Username Here">
                     <input type="password" name="password" placeholder="Enter Password Here">
-                    <button class="btnn">Login</button>
+                    <button class="btnn" >Login</button>
 					
 					 </form>
                     <p class="link">Don't have an account<br>
