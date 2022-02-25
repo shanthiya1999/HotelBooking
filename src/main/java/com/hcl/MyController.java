@@ -111,6 +111,7 @@ public class MyController {
 		ModelAndView mv = new ModelAndView();
 		dao1.save(login);
 		mv.setViewName("Booking");
+		mv.addObject("Name",user.getUsername());
 		return mv;
 	}
 
